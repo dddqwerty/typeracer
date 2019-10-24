@@ -4,8 +4,10 @@
   "description": "typeracerMongolia",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "firebase": "^7.2.1"
+    "firebase": "^7.2.1",
+    "firebase-admin": "^8.6.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -9,8 +9,8 @@ exports.home = (req, res) => {
   db.collection("data")
     .doc("test")
     .onSnapshot(doc => {
-        test = doc.data().sms;
-        res.render("home", { data: test });
-    })
-
+      test = doc.data().sms;    
+    });
+    
+    res.render("home", { data: test });
 };
