@@ -14,3 +14,7 @@ exports.home = (req, res) => {
     
     res.render("home", { data: test });
 };
+
+exports.play = (req,res) => {
+
+}
